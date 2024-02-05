@@ -1,0 +1,718 @@
+    1  cd .ssh/
+    2  ls
+    3  nano authorized_keys 
+    4  ls
+    5  cat sshd-config
+    6  sshd_config
+    7  nano sshd_config
+    8  ls
+    9  nano sshd_config *
+   10  cd sshd_config.d
+   11  sudo nano sshd_config
+   12  ls
+   13  cd ..
+   14  cd etc/.ssh
+   15  cd
+   16  cd etc/ssh
+   17  cd /etc/ssh
+   18  ls
+   19  cd sshd_config.d/
+   20  ls
+   21  sudo nano sshd_config
+   22  cd ..
+   23  sudo nano sshd_config
+   24  ip a
+   25  su -
+   26  ls -la
+   27  mkdir .ssh
+   28  cd .ssh
+   29  cat authorized keys
+   30  ls
+   31  nano authorized_keys 
+   32  sudo poweroff
+   33  sudo apt update
+   34  sudo apt update
+   35  sudo apt upgrade
+   36  sudo apt install -y curl gnupg2 ca-certificates lsb-release debian-archive-keyring
+   37  curl -fsSL https://nginx.org/keys/nginx_signing.key | sudo gpg --dearmor -o /etc/apt/trusted.gpg.d/nginx.gpg
+   38  echo "deb http://nginx.org/packages/debian $(lsb_release -sc) nginx" | sudo tee /etc/apt/sources.list.d/nginx.list > /dev/null
+   39  sudo apt update
+   40  sudo apt install -y nginx
+   41  sudo nginx -V
+   42  sudo systemctl status nginx
+   43  sudo systemctl start nginx
+   44  sudo systemctl status nginx
+   45  ip a
+   46  sudo apt update
+   47  sudo apt install -y     ca-certificates     curl     gnupg     lsb-release
+   48  curl -fsSL https://download.docker.com/linux/debian/gpg | sudo gpg --dearmor -o /etc/apt/trusted.gpg.d/docker.gpg
+   49  echo   "deb [arch=$(dpkg --print-architecture)] https://download.docker.com/linux/debian \
+   50    $(lsb_release -cs) stable" | sudo tee /etc/apt/sources.list.d/docker.list > /dev/null
+   51  sudo apt update
+   52  sudo apt install -y docker-ce docker-ce-cli containerd.io docker-compose-plugin
+   53  sudo systemctl status docker
+   54  docker --version
+   55  sudo usermod -aG docker $USER
+   56  sudo poweroff
+   57  docker run hello-world
+   58  sudo apt install -y docker-clean
+   59  docker run -p 80:80 nginx
+   60  docker run -p 90:80 nginx
+   61  sudo apt update
+   62  sudo apt install -y lsb-release ca-certificates apt-transport-https software-properties-common gnupg2
+   63  sdelquin@lemon:~$ curl -fsSL  https://packages.sury.org/php/apt.gpg | sudo gpg --dearmor -o /etc/apt/trusted.gpg.d/sury.gpg
+   64  echo "deb https://packages.sury.org/php/ $(lsb_release -sc) main"
+   65  sudo tee /etc/apt/sources.list.d/sury-php.list
+   66  sdelquin@lemon:~$ curl -fsSL  https://packages.sury.org/php/apt.gpg | sudo gpg --dearmor -o /etc/apt/trusted.gpg.d/sury.gpg
+   67  curl -fsSL  https://packages.sury.org/php/apt.gpg
+   68  curl -fsSL  https://packages.sury.org/php/apt.gpg \
+   69  sudo gpg --dearmor -o /etc/apt/trusted.gpg.d/sury.gpg
+   70  echo "deb https://packages.sury.org/php/ $(lsb_release -sc) main" | sudo tee /etc/apt/sources.list.d/sury-php.list
+   71  sudo apt update
+   72  sudo gpg --dearmor -o /etc/apt/trusted.gpg.d/sury.gpg
+   73  sudo apt upgrade
+   74  sudo apt update
+   75  sudo poweroff
+   76  sudo apt update
+   77  sudo owroff
+   78  sudo poweroff
+   79  cd /usr/share/nginx/html/ && ls
+   80  sudo nano calc1.php
+   81  sudo nano calc.css
+   82  firefox 10.109.27.40
+   83  cd
+   84  cd .ssh/
+   85  ls
+   86  cat authorized_keys 
+   87  su -
+   88  cd /etc/
+   89  ls
+   90  sudo nano hosts
+   91  cd /dev/app
+   92  cd /dev/
+   93  ls
+   94  cd .
+   95  cd ..
+   96  ls
+   97  cd home/
+   98  ls
+   99  cd pc27-dpl/
+  100  sudp apt update
+  101  sudo apt update
+  102  sudo apt install -y     ca-certificates     curl     gnupg     lsb-release
+  103  curl -fsSL https://download.docker.com/linux/debian/gpg | sudo gpg --dearmor -o /etc/apt/trusted.gpg.d/docker.gpg
+  104  echo   "deb [arch=$(dpkg --print-architecture)] https://download.docker.com/linux/debian \
+  105    $(lsb_release -cs) stable" | sudo tee /etc/apt/sources.list.d/docker.list > /dev/null
+  106  sudo apt update
+  107  sudo apt install -y docker-ce docker-ce-cli containerd.io docker-compose-plugin
+  108  sudo systemctl status docker
+  109  docker --version
+  110  sudo usermod -aG docker $USER
+  111  /dev/
+  112  cd /dev
+  113  mkdir app
+  114  sudo mkdir app
+  115  sudo nano default.conf
+  116  sudo nano docker-compose.yml
+  117  sudo mv default.conf /app
+  118  ls
+  119  sudo mv docker-compose.yml /app
+  120  cd app/
+  121  ls
+  122  sudo nano default.conf
+  123  sudo nano docker-compose.yml
+  124  sudo mkdir src
+  125  sudo nano index.php
+  126  docker compose up
+  127  sudo nano docker-compose.yml
+  128  docker compose up
+  129  cd src/
+  130  sudo nano calc1.php
+  131  cd ..
+  132  sudo nano default.conf 
+  133  docker compose up
+  134  sudo nano default.conf 
+  135  cd /usr/share/nginx/html/
+  136  cd /dev/app/src/
+  137  ls
+  138  sudo nano calc1.php 
+  139  sudo poweroff
+  140  sudo vi /etc/nginx/conf.d/pgadmin.conf
+  141  sudo systemctl reload nginx
+  142  sudo vi /etc/systemd/system/pgadmin.service
+  143  pip install vim
+  144  sudo apt install pip
+  145  pip install vim
+  146  sudo nano /etc/systemd/system/pgadmin.service
+  147  sudo systemctl daemon-reload
+  148  sudo systemctl start pgadmin
+  149  sudo systemctl enable pgadmin
+  150  sudo systemctl is-active pgadmin
+  151  sudo systemctl status pgadmin
+  152  sudo vi /etc/postgresql/15/main/postgresql.conf
+  153  sudo nano /etc/postgresql/15/main/postgresql.conf
+  154  ls /etc/postgresql
+  155  cd /etc/postgresql
+  156  rm -r 16/
+  157  s
+  158  cd ..
+  159  cd 
+  160  sudo vi /etc/postgresql/15/main/pg_hba.conf
+  161  sudo nano /etc/postgresql/15/main/pg_hba.conf
+  162  sudo systemctl restart postgresql
+  163  sudo netstat -napt | grep postgres | grep -v tcp6
+  164  composer --version
+  165  curl -fsSL https://raw.githubusercontent.com/composer/getcomposer.org/main/web/installer | php -- --quiet | sudo mv composer.phar /usr/local/bin/composer
+  166  composer --version
+  167  curl -fsSL https://raw.githubusercontent.com/composer/getcomposer.org/main/web/installer
+  168  url -fsSL https://raw.githubusercontent.com/composer/getcomposer.org/main/web/installer | php -- --quiet | sudo mv composer.phar /usr/local/bin/composer
+  169  curl -fsSL https://raw.githubusercontent.com/composer/getcomposer.org/main/web/installer | php -- --quiet | sudo mv composer.phar /usr/local/bin/composer
+  170  xx
+  171  curl -fsSL https://raw.githubusercontent.com/composer/getcomposer.org/main/web/installer | php -- --quiet | sudo mv composer.phar /usr/local/bin/composer
+  172  composer --version
+  173  sudo apt install -y php8.2-mbstring php8.2-xml php8.2-bcmath php8.2-curl php8.2-pgsql
+  174  composer create-project laravel/laravel travelroad
+  175  composer create-project laravel/laravel larave_travelroad
+  176  sudo apt install zip
+  177  composer create-project laravel/laravel larave_travelroad
+  178  composer create-project laravel/laravel laravel_travelroad
+  179  cd travelroad/
+  180  cd ..
+  181  ls
+  182  rm -r larave_travelroad/
+  183  rm -r travelroad/
+  184  cd laravel_travelroad/
+  185  ls -l
+  186  ./artisan --version
+  187  nano .env
+  188  sudo chgrp -R nginx storage bootstrap/cache
+  189  sudo chmod -R ug+rwx storage bootstrap/cache
+  190  sudo vi /etc/nginx/conf.d/travelroad.conf
+  191  sudo nano /etc/hosts
+  192  sudo nginx -t
+  193  sudo systemctl reload nginx
+  194  sudo nano /etc/hosts
+  195  sudo vi /etc/nginx/conf.d/travelroad.conf
+  196  sudo nano /etc/nginx/conf.d/travelroad.conf
+  197  sudo nano /etc/hosts
+  198  sudo nano /etc/nginx/conf.d/travelroad.conf
+  199  sudo poweroff
+  200  sudo apt update
+  201  ssh pc27-dpl@10.109.27.40
+  202  ls
+  203  sudo systemctl status nginx
+  204  docker --version
+  205  sudo apt install -y apt-transport-https
+  206  curl -fsSL https://www.postgresql.org/media/keys/ACCC4CF8.asc | sudo gpg --dearmor -o /etc/apt/trusted.gpg.d/postgresql.gpg
+  207  clear
+  208  echo "deb http://apt.postgresql.org/pub/repos/apt/ $(lsb_release -cs)-pgdg main" | sudo tee /etc/apt/sources.list.d/postgresql.list > /dev/null
+  209  sudo apt update
+  210  sudo apt upgrade
+  211  apt-cache search --names-only 'postgresql-[0-9]+$' | sort
+  212  sudo apt install -y postgresql-15
+  213  psql --version
+  214  sudo apt install -y postgresql-16
+  215  psql --version
+  216  sudo systemctl status postgresql
+  217  sudo netstat -napt | grep postgres | grep -v tcp6
+  218  sudo apt install net-tools.
+  219  sudo apt upgrade
+  220  sudo apt update
+  221  sudo apt install net-tools.
+  222  sudo apt install net-tools
+  223  sudo netstat -napt | grep postgres | grep -v tcp6
+  224  sudo -u postgres psql
+  225  psql -h localhost -U travelroad_user travelroad
+  226  curl -o /tmp/places.csv https://raw.githubusercontent.com/sdelquin/dpl/main/ut4/files/places.csv
+  227  psql -h localhost -U travelroad_user -d travelroad -c "\copy places(name, visited) FROM '/tmp/places.csv' DELIMITER ','"
+  228  psql -h localhost -U travelroad_user travelroad
+  229  echo 'export PATH=~/.local/bin:$PATH' >> .bashrc && source .bashrc
+  230  sudo mkdir /var/lib/pgadmin
+  231  sudo mkdir /var/log/pgadmin
+  232  sudo chown $USER /var/lib/pgadmin
+  233  sudo chown $USER /var/log/pgadmin
+  234  python -m venv pgadmin4
+  235  python3 -m venv pgadmin4
+  236  apt install python3.11-venv
+  237  sudo apt install python3.11-venv
+  238  source pgadmin4/bin/activate
+  239  ls
+  240  source pgadmin4/
+  241  python -m venv pgadmin4
+  242  python3 -m venv pgadmin4
+  243  source pgadmin4/bin/activate
+  244  pip install pgadmin4
+  245  pgadmin4
+  246  pip install gunicorn
+  247  gunicorn --chdir pgadmin4/lib/python3.11/site-packages/pgadmin4 --bind unix:/tmp/pgadmin4.sock pgAdmin4:app
+  248  ls
+  249  cd dpl_jaime_leon/
+  250  git fetch
+  251  git pull
+  252  ls
+  253  cd ut4
+  254  ls
+  255  cd a1
+  256  ls
+  257  source pgadmin4/bin/activate
+  258  gunicorn --chdir pgadmin4/lib/python3.11/site-packages/pgadmin4 --bind unix:/tmp/pgadmin4.sock pgAdmin4:app
+  259  sudo nano /etc/nginx/conf.d/pgadmin.conf
+  260  gunicorn --chdir pgadmin4/lib/python3.11/site-packages/pgadmin4 --bind unix:/tmp/pgadmin4.sock pgAdmin4:app
+  261  sudo systemctl reload nginx
+  262  gunicorn --chdir pgadmin4/lib/python3.11/site-packages/pgadmin4 --bind unix:/tmp/pgadmin4.sock pgAdmin4:app
+  263  sudo systemctl restart nginx
+  264  sudo systemctl reload nginx
+  265  gunicorn --chdir pgadmin4/lib/python3.11/site-packages/pgadmin4 --bind unix:/tmp/pgadmin4.sock pgAdmin4:app
+  266  sudo nano /etc/nginx/conf.d/pgadmin.conf
+  267  gunicorn --chdir pgadmin4/lib/python3.11/site-packages/pgadmin4 --bind unix:/tmp/pgadmin4.sock pgAdmin4:app
+  268  vi dpl_jaime_leon/
+  269  vi deploy.sh 
+  270  nano deploy.sh 
+  271  ls
+  272  cd repos
+  273  git clone git@github.com:JaimeLGC/travelroad_express.git
+  274  cd travelroad_express/
+  275  sudo npm install -g express-generator
+  276  npm --version
+  277  cd ../..
+  278  curl -fsSL https://deb.nodesource.com/setup_current.x | sudo -E bash
+  279  sudo apt update
+  280  sudo apt upgrade
+  281  curl -fsSL https://deb.nodesource.com/setup_current.x | sudo -E bash
+  282  sudo curl -fsSL https://deb.nodesource.com/setup_current.x | sudo -E bash
+  283  apt-get update
+  284  sudo apt-get update
+  285  sudo apt install -y nodejs
+  286  node --version
+  287  npm --version
+  288  curl -fsSL https://deb.nodesource.com/setup_current.x | sudo -E bash
+  289  sudo add-apt-repository ppa:webupd8team/y-ppa-manager
+  290  gpg --keyserver hkp://keyserver.ubuntu.com:80 --recv 9BDB3D89CE49EC21
+  291  sudo apt-get update
+  292  gpg --keyserver keyserver.ubuntu.com --recv-keys 010908312D230C5F
+  293  gpg --export -a 010908312D230C5F | sudo apt-key add -
+  294  sudo apt-get update
+  295  mv -i /etc/apt/trusted.gpg /root/
+  296  sudo mv -i /etc/apt/trusted.gpg /root/
+  297  sudo apt update
+  298  mv -i /etc/apt/trusted.gpg.d/debian-archive-*.asc  /root/
+  299  sudo mv -i /etc/apt/trusted.gpg.d/debian-archive-*.asc  /root/
+  300  ln -s /usr/share/keyrings/debian-archive-* /etc/apt/trusted.gpg.d/
+  301  sudo ln -s /usr/share/keyrings/debian-archive-* /etc/apt/trusted.gpg.d/
+  302  apt update
+  303  sudo apt update
+  304  gpg --keyserver pgp.mit.edu --recv-keys 54404762BBB6E853 BDE6D2B9216EC7A8 648ACFD622F3D138 0E98404D386FA1D9 F8D2585B8783D481 0E98404D386FA1D9 6ED0E7B82643E131
+  305  gpg --keyserver pgp.mit.edu --recv-keys 54404762BBB6E853 BDE6D2B9216EC7A8 648ACFD622F3D138 0E98404D386FA1D9 F8D2585B8783D481 0E98404D386F
+  306  gpg --armor --export DC30D7C23CBBABEE | sudo apt-key add -
+  307  sudo apt update
+  308  wget -O /etc/apt/trusted.gpg.d/php.gpg https://packages.sury.org/php/apt.gpg
+  309  sudo wget -O /etc/apt/trusted.gpg.d/php.gpg https://packages.sury.org/php/apt.gpg
+  310  sudo apt update
+  311  sudo apt upgrade
+  312  curl -fsSL https://deb.nodesource.com/setup_current.x | sudo -E bash
+  313  sudo apt install -y nodejs
+  314  node --version
+  315  npm --version
+  316  ls
+  317  cd repos/travelroad_express/
+  318  express --view=pug travelroad
+  319  sudo npm install -g express-generator
+  320  express --view=pug travelroad
+  321  ls -l
+  322  ls
+  323  ls travelroad/
+  324  npm install
+  325  cd travelroad/
+  326  npm install
+  327  DEBUG=travelroad:* npm start
+  328  npm audit fix
+  329  npm audit fix --force
+  330  DEBUG=travelroad:* npm start
+  331  npm install pg
+  332  npm install dotenv
+  333  echo 'PSQL_CONNECTION=postgresql://travelroad_user:dpl0000@localhost:5432/travelroad' > .env
+  334  history
+  335  cat history > history.txt
+  336  history > history.txt
+  337  nano history.txt 
+  338  ls
+  339  rm history.txt 
+  340  mkdir config && vi config/database.js
+  341  vi routes/index.js
+  342  nano routes/index.js
+  343  vi views/index.pug
+  344  nano views/index.pug
+  345  DEBUG=travelroad:* npm start
+  346  sudo npm install -g pm2
+  347  pm2 start ./bin/www --name travelroad
+  348  sudo vi /etc/nginx/conf.d/travelroad_spring.conf
+  349  sudo nano /etc/nginx/conf.d/travelroad_spring.conf
+  350  ls /etc/nginx/conf.d/
+  351  cat /etc/nginx/conf.d/travelroad_spring.conf
+  352  cat /etc/nginx/conf.d/travelroad.conf
+  353  nano /etc/nginx/conf.d/travelroad_spring.conf
+  354  sudo nano /etc/nginx/conf.d/travelroad_spring.conf
+  355  mv /etc/nginx/conf.d/
+  356  history
+  357  cat /etc/nginx/conf.d/calc.conf 
+  358  cat /etc/nginx/conf.d/travelroad_spring.conf 
+  359  mv /etc/nginx/conf.d/travelroad_spring.conf /etc/nginx/conf.d/travelroad_express.conf
+  360  sudo mv /etc/nginx/conf.d/travelroad_spring.conf /etc/nginx/conf.d/travelroad_express.conf
+  361  sudo nano /etc/nginx/conf.d/travelroad_express.conf 
+  362  sudo nano /etc/hosts[B
+  363  sudo nano /etc/nginx/conf.d/travelroad_express.conf 
+  364  history > hist.txt
+  365  nano hist.txt 
+  366  rm hist.txt 
+  367  cd ..
+  368  git add .
+  369  git commit -m "e"
+  370  git push
+  371  cd travelroad/
+  372  pm2 start travelroad
+  373  cd 
+  374  cd repos/travelroad_express/travelroad/
+  375  DEBUG=travelroad:* npm start
+  376  npm install
+  377  cat /etc/nginx/conf.d/travelroad_express.conf 
+  378  cat /etc/nginx/conf.d/travelroad.conf 
+  379  cat /etc/nginx/conf.d/travelroad_express.conf 
+  380  curl -fsSL https://deb.nodesource.com/setup_current.x | sudo -E bash
+  381  cd
+  382  ls repos/
+  383  cd pgadmin4/lib/python3.11/site-packages/pgadmin4
+  384  ls
+  385  cd ../../../..
+  386  cd ..
+  387  ls
+  388  source pgadmin4/bin/activate
+  389  ls
+  390  deactivate
+  391  gunicorn --chdir pgadmin4/lib/python3.11/site-packages/pgadmin4 --bind unix:/tmp/pgadmin4.sock pgAdmin4:app
+  392  source pgadmin4/bin/activate
+  393  gunicorn --chdir pgadmin4/lib/python3.11/site-packages/pgadmin4 --bind unix:/tmp/pgadmin4.sock pgAdmin4:app
+  394  gunicorn --chdir pgadmin4/lib/python3.11/site-packages/pgadmn4 --bind unix:/tmp/pgadmin4.sock pgAdmin4:app
+  395  sudo poweroff
+  396  cd repos/travelroad_express/travelroad/
+  397  npm start
+  398  DEBUG=travelroad:* npm start
+  399  git add .
+  400  git commit -m "cambios locales"
+  401  git push
+  402  sudo poweroff
+  403  sudo npm install -g pm2
+  404  DEBUG=travelroad:* npm start
+  405  cd repos/travelroad_express/travelroad/
+  406  DEBUG=travelroad:* npm start
+  407  cd ../../..
+  408  ls
+  409  cd tr
+  410  cd repos/
+  411  ls
+  412  cd laravel_travelroad/
+  413  ls
+  414  ls .a
+  415  ls -a
+  416  cd travelroad/
+  417  ls -a
+  418  mv deploy.sh /home/pc27-dpl/scripts
+  419  ls -a
+  420  cd
+  421  ls
+  422  mkdir scripts
+  423  mv scripts deploy.sh 
+  424  mv deploy.sh repos/deploy_laravel.sh
+  425  cd repos/
+  426  cat deploy_laravel.sh > deploy_express.sh
+  427  ls
+  428  chmod u+x deploy_express.sh 
+  429  ls
+  430  nano deploy_express.sh 
+  431  cat deploy_laravel.sh 
+  432  cd ..
+  433  ls
+  434  cd laravel_travelroad/
+  435  ls
+  436  cd ..
+  437  ls -a
+  438  cd repos/
+  439  ls -a
+  440  nano deploy_laravel.sh 
+  441  nano deploy_express.sh 
+  442  cat deploy_laravel.sh > deploy_express.sh 
+  443  nano deploy_express.sh 
+  444  cd travelroad_express/
+  445  git fetch
+  446  git pull
+  447  DEBUG=travelroad:* npm start
+  448  cd travelroad/
+  449  DEBUG=travelroad:* npm start
+  450  cd ..
+  451  ls
+  452  cat README.md > hola.md
+  453  cd ..
+  454  ./deploy_express.sh 
+  455  nano deploy_express.sh 
+  456  ./deploy_express.sh 
+  457  nano deploy_express.sh 
+  458  nano deploy_laravel.sh 
+  459  python -m venv --prompt travelroad .venv
+  460  python3 -m venv --prompt travelroad .venv
+  461  source .venv/bin/activate
+  462  ls -l
+  463  ls -a
+  464  rm -r -a .venv/
+  465  rm -r .venv/
+  466  git clone git@github.com:JaimeLGC/travelroad_django.git
+  467  cd travelroad_django/
+  468  python -m venv --prompt travelroad .venv
+  469  python3 -m venv --prompt travelroad .venv
+  470  nano .gitignore
+  471  source .venv/bin/activate
+  472  pip install django
+  473  django-admin startproject main .
+  474  tree
+  475  ls
+  476  ./manage.py runserver
+  477  ./manage.py startapp places
+  478  ls
+  479  nano main/settings.py 
+  480  pip install psycopg2
+  481  pip install psycopg2-binary
+  482  nano main/settings.py 
+  483  ./manage.py check
+  484  nano places/models.py
+  485  nano places/views.py
+  486  mkdir -p places/templates/places
+  487  nano places/templates/places/index.html
+  488  nano places/urls.py
+  489  nano main/urls.py
+  490  sudo poweroff
+  491  ls
+  492  ls -a
+  493  cd repos/
+  494  ls
+  495  ls .a
+  496  ls -a
+  497  ls -a travelroad_
+  498  ls -a travelroad_django/
+  499  cd travelroad_django/
+  500  ls
+  501  v
+  502  python3 .venv/bin/activate
+  503  cat .venv/bin/activate
+  504  nano .venv/bin/activate
+  505  source .venv/bin/activate
+  506  ls
+  507  clear
+  508  python -m django --version
+  509  ls
+  510  cat main/urls.py 
+  511  nano main/urls.py 
+  512  ./manage.py runserver
+  513  python manage.py m makemigrations
+  514  python manage.py makemigrations
+  515  python manage.py migrate
+  516  ./manage.py runserver
+  517  python manage.py makemigrations
+  518  python manage.py migrate
+  519  ./manage.py migrate --fake default
+  520  python manage.py migrate --fake
+  521  ./manage.py runserver
+  522  pip install prettyconf
+  523  vi main/settings.py
+  524  nano main/settings.py
+  525  nano requirements.txt
+  526  pip install -r requirements.txt
+  527  nano .env
+  528  nano .gitignore 
+  529  pip install gunicorn
+  530  gunicorn main.wsgi:application
+  531  sudo apt install -y supervisor
+  532  sudo systemctl status supervisor
+  533  supervisorctl status
+  534  sudo groupadd supervisor
+  535  sudo nano /etc/supervisor/supervisord.conf
+  536  sudo systemctl restart supervisor
+  537  sudo usermod -a -G supervisor sdelquin
+  538  sudo usermod -a -G supervisor pc27-dpl
+  539  sudo poweroff
+  540  cd repos/travelroad_django/
+  541  source .venv/bin/activate
+  542  supervisorctl help
+  543  nano run.sh
+  544  chmod +x run.sh
+  545  sudo nano /etc/supervisor/conf.d/travelroad.conf
+  546  supervisorctl reread
+  547  supervisorctl add travelroad
+  548  supervisorctl status
+  549  sudo nano /etc/nginx/conf.d/travelroad.conf
+  550  sudo nano /etc/nginx/conf.d/travelroad_django.conf
+  551  sudo systemctl reload nginx
+  552  sudo nano /etc/nginx/conf.d/travelroad_django.conf
+  553  ./manage.py runserver
+  554  sudo nano /etc/nginx/proxy_params
+  555  sudo systemctl reload nginx
+  556  cat .env
+  557  nano .env
+  558  sudo systemctl reload nginx
+  559  sudo systemctl status supervisor
+  560  sudo nano /etc/supervisor/supervisord.conf 
+  561  suprvisorctl status
+  562  supervisorctl status
+  563  supervisorctl restart travelroad
+  564  supervisorctl reread travelroad
+  565  supervisorctl reread
+  566  ls -a
+  567  ls
+  568  nano .gitignore 
+  569  git add .
+  570  git commit -m "lessgo"
+  571  git push
+  572  ls
+  573  cd ..
+  574  ls
+  575  cat deploy_express.sh > deploy_django.sh
+  576  nano deploy_django.sh 
+  577  chmod +x deploy.sh
+  578  chmod +x deploy:django.sh
+  579  chmod +x deploy_django.sh
+  580  supervisorctl restart travelroad
+  581  sudo poweroff
+  582  cd repos/travelroad_django/
+  583  source .venv/bin/activate
+  584  ls
+  585  python manage.py runserver
+  586  cd ..
+  587  cd travelroad_express/
+  588  ls
+  589  DEBUG=travelroad:* npm start
+  590  ls
+  591  cd travelroad/
+  592  DEBUG=travelroad:* npm start
+  593  sudo nano /etc/nginx/conf.d/travelroad_express.conf 
+  594  sudo systemctl reload nginx
+  595  DEBUG=travelroad:* npm start
+  596  cd bviews
+  597  cd views
+  598  ls
+  599  cd ..
+  600  ls
+  601  cat app.js 
+  602  cd ..
+  603  ls
+  604  cd ..
+  605  ls
+  606  cat deploy_express.sh 
+  607  cd travelroad_express/
+  608  ls
+  609  rm hola.md 
+  610  cd travelroad/views/
+  611  ls
+  612  nano index.pug 
+  613  cd ../../..
+  614  ./deploy_express.sh 
+  615  cd travelroad/views/
+  616  cd travelroad_express/travelroad/views/
+  617  nano index.pug 
+  618  cd ../..
+  619  cd ..
+  620  ./deploy_express.sh 
+  621  cat deploy_express.sh 
+  622  nano deploy_express.sh 
+  623  cd ..
+  624  curl -O --output-dir /tmp https://download.java.net/java/GA/jdk19.0.1/afdd2e245b014143b62ccb916125e3ce/10/GPL/openjdk-19.0.1_linux-x64_bin.tar.gz
+  625  sudo tar -xzvf /tmp/openjdk-19.0.1_linux-x64_bin.tar.gz --one-top-level=/usr/lib/jvm
+  626  ls -l /usr/lib/jvm/jdk-19.0.1/
+  627  sudo nano /etc/profile.d/jdk_home.sh
+  628  sudo update-alternatives --install "/usr/bin/java" "java" "/usr/lib/jvm/jdk-19.0.1/bin/java" 0
+  629  sudo update-alternatives --install "/usr/bin/javac" "javac" "/usr/lib/jvm/jdk-19.0.1/bin/javac" 0
+  630  sudo update-alternatives --set java /usr/lib/jvm/jdk-19.0.1/bin/java
+  631  sudo update-alternatives --set javac /usr/lib/jvm/jdk-19.0.1/bin/javac
+  632  java --version
+  633  javac --version
+  634  sudo apt install -y zip
+  635  curl -s https://get.sdkman.io | bash
+  636  source "$HOME/.sdkman/bin/sdkman-init.sh"
+  637  sdk version
+  638  sdk install springboot
+  639  spring --version
+  640  sdk install maven
+  641  mvn --version
+  642  spring init --build=maven --dependencies=web --group=edu.dpl --name=travelroad --description=TravelRoad travelroad
+  643  spring init --build=maven --dependencies=web --group=edu.dpl --name=travelroad --description=TravelRoad repos/travelroad
+  644  ls repos/
+  645  rm -r travelroad/
+  646  cd ..
+  647  cd pc27-dpl/repos/
+  648  git clone git@github.com:JaimeLGC/travelroad_spring.git
+  649  ls
+  650  cd ..
+  651  spring init --build=maven --dependencies=web --group=edu.dpl --name=travelroad --description=TravelRoad repos/travelroad_spring/travelroad
+  652  cd repos/travelroad_spring/travelroad/
+  653  ls
+  654  tree
+  655  nanp src/main/java/edu/dpl/travelroad/controllers/HomeController.java
+  656  nano src/main/java/edu/dpl/travelroad/controllers/HomeController.java
+  657  sudo nano src/main/java/edu/dpl/travelroad/controllers/HomeController.java
+  658  cd ..
+  659  rm -r travelroad/
+  660  spring init --build=maven --dependencies=web --group=edu.dpl --name=travelroad --description=TravelRoad travelroad
+  661  tree travelroad/
+  662  mkdir -p src/main/java/edu/dpl/travelroad/controllers
+  663  touch src/main/java/edu/dpl/travelroad/controllers/HomeController.java
+  664  mkdir -p src/main/java/edu/dpl/travelroad/models
+  665  touch src/main/java/edu/dpl/travelroad/models/Place.java
+  666  mkdir -p src/main/java/edu/dpl/travelroad/repositories
+  667  touch src/main/java/edu/dpl/travelroad/repositories/PlaceRepository.java
+  668  touch src/main/resources/templates/home.html
+  669  nano src/main/resources/templates/home.html
+  670  cd travelroad/
+  671  touch src/main/resources/templates/home.html
+  672  mkdir -p src/main/java/edu/dpl/travelroad/controllers
+  673  touch src/main/java/edu/dpl/travelroad/controllers/HomeController.java
+  674  mkdir -p src/main/java/edu/dpl/travelroad/models
+  675  touch src/main/java/edu/dpl/travelroad/models/Place.java
+  676  mkdir -p src/main/java/edu/dpl/travelroad/repositories
+  677  touch src/main/java/edu/dpl/travelroad/repositories/PlaceRepository.java
+  678  tree src/main
+  679  vi src/main/java/edu/dpl/travelroad/controllers/HomeController.java
+  680  nano src/main/java/edu/dpl/travelroad/controllers/HomeController.java
+  681  nano src/main/java/edu/dpl/travelroad/models/Place.java
+  682  nano src/main/java/edu/dpl/travelroad/repositories/PlaceRepository.java
+  683  nano src/main/resources/templates/home.html
+  684  nano pom.xml
+  685  sudo poweroff
+  686  vi src/main/resources/application.properties
+  687  cd repos/travelroad_spring/travelroad/
+  688  vi src/main/resources/application.properties
+  689  ./mvnw compile
+  690  ./mvnw package
+  691  ls target/travelroad-0.0.1-SNAPSHOT.jar
+  692  file target/travelroad-0.0.1-SNAPSHOT.jar
+  693  java -jar target/travelroad-0.0.1-SNAPSHOT.jar
+  694  vi run.sh
+  695  chmod +x run.sh
+  696  mkdir -p ~/.config/systemd/user
+  697  ls ../../..
+  698  ls -a ../../..
+  699  vi ~/.config/systemd/user/travelroad.service
+  700  nano ~/.config/systemd/user/travelroad.service
+  701  systemctl --user enable travelroad.service
+  702  systemctl --user start travelroad.service
+  703  systemctl --user status travelroad.service
+  704  sudo vi /etc/nginx/conf.d/travelroad.conf
+  705  sudo vi /etc/nginx/conf.d/travelroad_spring.conf
+  706  sudo nano /etc/nginx/conf.d/travelroad_spring.conf
+  707  sudo systemctl reload nginx
+  708  vi src/main/resources/templates/home.html
+  709  nano src/main/resources/templates/home.html
+  710  sudo systemctl reload nginx
+  711  nano src/main/resources/templates/home.html
+  712  systemctl --user restart travelroad.service
+  713  nano src/main/resources/templates/home.html
+  714  systemctl --user restart travelroad.service
+  715  git add .
+  716  git commit -m "configuración local"
+  717  git push
+  718  history > hisotr.txt
