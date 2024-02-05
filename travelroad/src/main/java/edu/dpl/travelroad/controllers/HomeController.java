@@ -27,8 +27,9 @@ public class HomeController {
         return "visited"; // visited.html
     }
 
-   @GetMapping("/wished")
-        public String wished(Model model) {
-        model.addAttribute("wished", placeRepository.findByVisited(false));
-        return "wished"; // wished.html
+    @GetMapping("/wished")
+         public String wished(Model model) {
+         model.addAttribute("wished", placeRepository.findByVisited(false));
+         return "wished"; // wished.html
+    }
 }
